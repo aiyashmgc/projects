@@ -538,8 +538,11 @@
 
   // Initialize on DOM ready
   document.addEventListener('DOMContentLoaded', init);
-})();
-function bindEvents() {
+  function bindEvents() {
   // currently empty, add your event listeners here if needed
 }
+
+})();
+
+
 
