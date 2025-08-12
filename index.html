@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Modern Gypsum Ceiling Projects</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Modern Gypsum Ceiling Projects</h1>
+  </header>
+
+  <main>
+    <section id="project-management">
+      <label for="project-select">Select Project:</label>
+      <select id="project-select"></select>
+      <button id="btn-new-project" class="btn-primary">New Project</button>
+      <button id="btn-delete-project" class="btn-danger">Delete Project</button>
+    </section>
+
+    <section id="areas-container">
+      <!-- Dynamically generated areas with tasks here -->
+    </section>
+
+    <button id="btn-add-area" class="btn-secondary">Add New Area</button>
+
+    <section id="view-switcher" class="view-buttons">
+      <button id="btn-gantt-view" class="active">Gantt View</button>
+      <button id="btn-legend-view">Legend View</button>
+    </section>
+
+    <button id="btn-download" class="btn-primary">Download Page</button>
+
+    <section id="legend-container" class="hidden">
+      <h2>Team Legend & Colors</h2>
+      <ul id="team-legend-list"></ul>
+      <button id="btn-add-team" class="btn-secondary">Add New Team</button>
+    </section>
+  </main>
+
+  <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+  <script src="utils.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
